@@ -26,6 +26,14 @@ public class Main {
         int b;
         for (b = 1; b <= 512; b = b + b)
             System.out.println(b);
+        System.out.println("Задание 8");
+        int solary = 29000;
+        int total = 0;
+        for (i = 0; i <= 12; i++) {
+            total = total + total/100;
+            total = total + solary;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
+        }
 
 
     }
