@@ -34,7 +34,34 @@ public class Main {
             total = total + solary;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
         }
+        System.out.println("Задание 9*");
+        int i9;
+        for (i9 = 1; i9 <= 30; i9++){
+            if (i9 % 3 == 0 && i9 % 5 == 0){
+                System.out.println(i9 + " ping pong");
+            }
+            else if (i9 % 3 == 0){
+                System.out.println(i9 + " ping");
+            }
+            else if (i9 % 5 == 0) {
+                System.out.println(i9 + " pong");
 
+            }
+            else {
+                System.out.println(i);
+            }
+
+        }
+
+        System.out.println("Задание 10*");
+        int totalFib = 0;
+        int fib = 1;
+        for (int f = 0; f <= 4; f++){
+            System.out.print(totalFib + " ");
+            System.out.print(fib + " ");
+            totalFib = totalFib + fib;
+            fib = totalFib + fib;
+        }
 
     }
 
